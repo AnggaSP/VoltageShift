@@ -7,8 +7,8 @@ by  Andy Vandijck Copyright (C) 2013 AnV Software
 
 **NOTICE: THIS TOOL IS FOR ADVANCED USERS AND MAY DAMAGE YOUR COMPUTER PERMANENTLY.**
 
-You can download this software´s binary from our site -
-[VoltageShift](http://sitechprog.blogspot.com/2017/06/voltageshift.html)
+Fork note: Modified for use with Clover / OpenCore.<br />
+**/L/E AND /S/L/E ARE NOT SUPPORTED.**
 
 Building
 --------
@@ -36,14 +36,9 @@ Undervoltage can reduce heat and sustain Turbo boost longer, provide longer batt
 
 This program does not provide a GUI interface because it loads the MSR driver only when apply, amend or read is done, after that the MSR driver will load and unload immediately for more security and lowest resource usage, after you test the settings well, you can use our tools to build the launchd for autorun on startup and maintaining the settings, please read below for more details. 
 
-This program supports macOS 10.12 or above, however you need to switch off the SIP for unsigned kext in Recovery mode:
+This program supports macOS 10.12 or above.
 
-Push `Cmd`+`R` when booting to Recovery mode, select Terminal at toolbar and enter: 
-    
-    csrutil enable --without kext
-    
-After reboot, ensure the kext and the command tool files are in the same directory.
-
+Please inject the Kext with your favorite bootloader before using the CLI tool.
 
 You can view your current voltage offset,CPU freqency,power and temperture settings with the following command:
 
