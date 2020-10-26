@@ -201,7 +201,6 @@
 				ORGANIZATIONNAME = SiCreative;
 				TargetAttributes = {
 					AB1B031317E25FC000DD337E = {
-						DevelopmentTeam = 7698T37TAB;
 						ProvisioningStyle = Automatic;
 					};
 					ABC74EFD17983B9900B182E7 = {
@@ -286,7 +285,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = 7698T37TAB;
+				DEVELOPMENT_TEAM = T3HN47WH58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoltageShiftAnVMSR/voltageshift-Prefix.pch";
 				GCC_VERSION = "";
@@ -301,7 +300,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = 7698T37TAB;
+				DEVELOPMENT_TEAM = T3HN47WH58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoltageShiftAnVMSR/voltageshift-Prefix.pch";
 				GCC_VERSION = "";
@@ -407,7 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.21;
-				DEVELOPMENT_TEAM = 7698T37TAB;
+				DEVELOPMENT_TEAM = T3HN47WH58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoltageShiftAnVMSR/VoltageShift-Prefix.pch";
 				GCC_VERSION = "";
@@ -431,7 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.21;
-				DEVELOPMENT_TEAM = 7698T37TAB;
+				DEVELOPMENT_TEAM = T3HN47WH58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoltageShiftAnVMSR/VoltageShift-Prefix.pch";
 				GCC_VERSION = "";
